@@ -2,11 +2,11 @@
   "name": "finthch-camp",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "old/server.js",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"nodemon ./dist/main.js\" ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node old/server.js"
   },
   "author": "",
   "license": "ISC",
