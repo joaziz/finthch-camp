@@ -1,5 +1,5 @@
 import {Application} from "express";
-import {IRouter} from "express-serve-static-core";
+import {IRouter} from "express";
 
 export interface RouteInterface {
     getRouter(): IRouter;

@@ -1,6 +1,5 @@
 import {RouteInterface} from "../Core/Interfaces/Route.Interface";
-import express, {Request, Response} from "express";
-import {IRouter} from "express-serve-static-core";
+import express, {IRouter} from "express";
 import {
     AllTransaction,
     CreateTransaction, DeleteTransaction,
